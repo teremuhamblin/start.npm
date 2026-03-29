@@ -1,36 +1,23 @@
 {
   "name": "@teremuhamblin/start.npm",
   "version": "1.0.0",
-  "description": "Package npm personnel publié sur GitHub Packages.",
+  "description": "Un micro-starter pour initier rapidement un projet Node.js.",
   "main": "index.js",
   "scripts": {
-  "test": "jest"
-}
-    "start": "node index.js",
-    "start:npm": "npm start",
-    "test": "jest",
-    "lint": "echo \"(Aucun linter configuré pour le moment)\"",
-    "build": "echo \"Aucune étape de build nécessaire pour ce package\"",
-    "prepublishOnly": "npm test"
+    "test": "jest"
   },
   "keywords": [
-    "github-packages",
-    "npm",
+    "starter",
     "node",
-    "start.npm"
+    "npm",
+    "template"
   ],
-  "author": "teremuhamblin",
+  "author": "Teremu",
   "license": "MIT",
-  "publishConfig": {
-    "@teremuhamblin:registry": "https://npm.pkg.github.com"
-  },
   "devDependencies": {
     "jest": "^29.7.0"
   },
-  "jest": {
-    "testEnvironment": "node",
-    "testMatch": [
-      "**/tests/**/*.test.js"
-    ]
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
