@@ -1,4 +1,5 @@
 Structure complète du projet
+(sans les extensions et deploiements)
 
 YOUR-REPOSITORY/
 ├── index.js
