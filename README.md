@@ -1,5 +1,9 @@
 📘 `README.md — start.npm`
 
+### @teremuhamblin/start.npm
+
+![CodeQL](https://github.com/teremuhamblin/start.npm/actions/workflows/codeql.yml/badge.svg)
+
 🚀 Présentation
 `start.npm` est un package JavaScript minimaliste publié sur GitHub Packages. Il fournit quelques fonctions simples (salutation, message personnalisé, addition) et sert de base pour expérimenter la publication automatisée via GitHub Actions.
 
