@@ -1,10 +1,11 @@
 {
-  "name": "@YOUR-USERNAME/YOUR-REPOSITORY",
+  "name": "@teremuhamblin/start.npm",
   "version": "1.0.0",
-  "description": "Un package npm simple publié sur GitHub Packages.",
+  "description": "Package npm personnel publié sur GitHub Packages.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start:npm": "npm start",
     "test": "exit 0",
     "lint": "echo \"(Aucun linter configuré pour le moment)\"",
     "build": "echo \"Aucune étape de build nécessaire pour ce package\"",
@@ -14,11 +15,11 @@
     "github-packages",
     "npm",
     "node",
-    "example"
+    "start.npm"
   ],
-  "author": "YOUR-USERNAME",
+  "author": "teremuhamblin",
   "license": "MIT",
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+    "@teremuhamblin:registry": "https://npm.pkg.github.com"
   }
 }
