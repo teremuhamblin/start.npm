@@ -1,8 +1,5 @@
-const { hello } = require("@teremuhamblin/start.npm");
+const hello = require('../hello');
 
-describe("hello()", () => {
-  test("retourne 'Hello, World!'", () => {
-    const result = hello();
-    expect(result).toBe("Hello, World!");
-  });
+test('retourne le message Hello World', () => {
+  expect(hello()).toBe('Hello World');
 });
