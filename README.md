@@ -5,6 +5,8 @@
 ### @teremuhamblin/start.npm
 
 ![CodeQL](https://github.com/teremuhamblin/start.npm/actions/workflows/codeql.yml/badge.svg)
+![Tests](https://github.com/teremuhamblin/start.npm/actions/workflows/tests.yml/badge.svg)
+![Publish](https://github.com/teremuhamblin/start.npm/actions/workflows/release-package.yml/badge.svg)
 
 - ` passing car le code est actif.`
 
@@ -21,7 +23,6 @@ Ce module est idéal pour comprendre :
 ---
 
 # 📦 Installation
-
 Avant d’installer le package, configure ton `.npmrc` dans ton projet :
 
 `
