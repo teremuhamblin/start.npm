@@ -1,0 +1,20 @@
+{
+  "name": "@YOUR-USERNAME/YOUR-REPOSITORY",
+  "version": "1.0.0",
+  "description": "Un package npm simple publié sur GitHub Packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "github-packages",
+    "npm",
+    "example",
+    "node"
+  ],
+  "author": "YOUR-USERNAME",
+  "license": "MIT",
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  }
+}
