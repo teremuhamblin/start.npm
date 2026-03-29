@@ -1,10 +1,11 @@
 /**
- * Module simple pour démontrer la publication sur GitHub Packages.
- * Fournit plusieurs fonctions exportées pour illustrer les usages.
+ * Module principal du package start.npm.
+ * Fournit plusieurs fonctions simples pour démontrer la publication
+ * sur GitHub Packages.
  */
 
 /**
- * Retourne un message de bienvenue.
+ * Retourne un message de bienvenue générique.
  */
 function hello() {
   return "Hello, World!";
