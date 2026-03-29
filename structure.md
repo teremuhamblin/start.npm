@@ -1,5 +1,6 @@
-Structure complète du projet
+### Structure complète du projet
 (sans les extensions et deploiements)
+<br/>
 
 start.npm/
 ├── index.js
@@ -10,3 +11,9 @@ start.npm/
 └── .github/
     └── workflows/
         └── release-package.yml
+
+---
+
+### Documentation complète :
+> start.npm/ documentation
+> https://github.com/teremuhamblin/start.npm.wiki.git
