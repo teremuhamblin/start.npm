@@ -10,7 +10,7 @@
 
 ---
 
-🚀 Présentation
+# 🚀 Présentation
 <div/>"start.npm" est un package JavaScript minimaliste publié sur GitHub Packages. Il fournit quelques fonctions simples (salutation, message personnalisé, addition) et sert de base pour expérimenter la publication automatisée via GitHub Actions.
 
 Ce module est idéal pour comprendre :
@@ -20,7 +20,7 @@ Ce module est idéal pour comprendre :
 
 ---
 
-📦 Installation
+# 📦 Installation
 
 Avant d’installer le package, configure ton `.npmrc` dans ton projet :
 
@@ -35,7 +35,7 @@ Ensuite, installe le package :
 npm install @teremuhamblin/start.npm
 `
 
----
+<div/>
 
 🧩 Utilisation
 
