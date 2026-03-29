@@ -15,7 +15,8 @@ Ce module est idéal pour comprendre :
 Avant d’installer le package, configure ton `.npmrc` dans ton projet :
 
 `
-@teremuhamblin:registry=https://npm.pkg.github.com
+@teremuhamblin:registry=https
+(//npm.pkg.github.com)
 `
 
 Ensuite, installe le package :
