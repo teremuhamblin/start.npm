@@ -5,8 +5,6 @@
 ### @teremuhamblin/start.npm
 
 ![CodeQL](https://github.com/teremuhamblin/start.npm/actions/workflows/codeql.yml/badge.svg)
-![Tests](https://github.com/teremuhamblin/start.npm/actions/workflows/tests.yml/badge.svg)
-![Publish](https://github.com/teremuhamblin/start.npm/actions/workflows/release-package.yml/badge.svg)
 
 - ` passing car le code est actif.`
 - ` failing car le code est pas actif.`
@@ -41,7 +39,6 @@ npm install @teremuhamblin/start.npm
 <div/>
 
 🧩 Utilisation
-
 
 `js
 const { hello, greet, add } = require("@teremuhamblin/start.npm");
