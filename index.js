@@ -21,3 +21,7 @@
     "registry": "https://npm.pkg.github.com"
   }
 }
+
+const { add } = require('../index');
+const { greet } = require('../index');
+const { hello } = require('../index');
