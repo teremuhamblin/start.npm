@@ -4,13 +4,17 @@
   "description": "Un package npm simple publié sur GitHub Packages.",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "start": "node index.js",
+    "test": "exit 0",
+    "lint": "echo \"(Aucun linter configuré pour le moment)\"",
+    "build": "echo \"Aucune étape de build nécessaire pour ce package\"",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "github-packages",
     "npm",
-    "example",
-    "node"
+    "node",
+    "example"
   ],
   "author": "YOUR-USERNAME",
   "license": "MIT",
