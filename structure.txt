@@ -1,0 +1,11 @@
+Structure complète du projet
+
+YOUR-REPOSITORY/
+├── index.js
+├── package.json
+├── package-lock.json
+├── .npmrc                # (optionnel si tu utilises publishConfig)
+├── .gitignore
+└── .github/
+    └── workflows/
+        └── release-package.yml
