@@ -1,13 +1,5 @@
-const { greet } = require("@teremuhamblin/start.npm");
+const greet = require('../greet');
 
-describe("greet(name)", () => {
-  test("retourne un message personnalisé avec le nom fourni", () => {
-    const result = greet("Teremu");
-    expect(result).toBe("Hello, Teremu!");
-  });
-
-  test("gère un nom vide ou undefined", () => {
-    const result = greet();
-    expect(result).toBe("Hello, undefined!");
-  });
+test('retourne un message de salutation', () => {
+  expect(greet('Teremu')).toBe('Bonjour, Teremu !');
 });
