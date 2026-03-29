@@ -9,6 +9,8 @@
 ![Publish](https://github.com/teremuhamblin/start.npm/actions/workflows/release-package.yml/badge.svg)
 
 - ` passing car le code est actif.`
+- ` failing car le code est pas actif.`
+- ` no status car le workflow est désactivé.`
 
 ---
 
