@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "start:npm": "npm start",
-    "test": "exit 0",
+    "test": "jest",
     "lint": "echo \"(Aucun linter configuré pour le moment)\"",
     "build": "echo \"Aucune étape de build nécessaire pour ce package\"",
     "prepublishOnly": "npm test"
@@ -21,5 +21,14 @@
   "license": "MIT",
   "publishConfig": {
     "@teremuhamblin:registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
   }
 }
