@@ -1,20 +1,17 @@
-Une documentation utilisateur met l’accent sur l’usage concret, la prise en main, les exemples pratiques, et la compréhension simple du package. Elle est pensée pour quelqu’un qui veut utiliser ton module sans forcément connaître son fonctionnement interne.
-
----
-
-📘 Documentation utilisateur — @teremuhamblin/start.npm
+📘 Documentation utilisateur
+`@teremuhamblin/start.npm`
 
 Introduction au module
-Le package start.npm fournit un ensemble de petites fonctions JavaScript prêtes à l’emploi. Il est conçu pour être simple à installer, simple à utiliser et compatible avec tous les projets Node.js. Les fonctions proposées permettent d’afficher un message, de personnaliser une salutation et d’effectuer une addition.
+Le package `start.npm` fournit un ensemble de petites fonctions JavaScript prêtes à l’emploi. Il est conçu pour être simple à installer, simple à utiliser et compatible avec tous les projets `Node.js`. Les fonctions proposées permettent d’afficher un message, de personnaliser une salutation et d’effectuer une addition.
 
 ---
 
 Installation du package
 
 1. Configurer le registre GitHub Packages
-Avant d’installer le module, il faut indiquer à npm d’utiliser le registre GitHub pour le scope @teremuhamblin.
+Avant d’installer le module, il faut indiquer à npm d’utiliser le registre GitHub pour le `scope @teremuhamblin`.
 
-Créer ou modifier le fichier .npmrc dans votre projet :
+Créer ou modifier le fichier `.npmrc` dans votre projet :
 
 `
 @teremuhamblin:registry=https://npm.pkg.github.com
@@ -29,10 +26,10 @@ npm install @teremuhamblin/start.npm
 
 ---
 
-Utilisation dans un projet Node.js
+Utilisation dans un projet `Node.js`
 
 Importer le module
-Le module utilise CommonJS, ce qui le rend compatible avec la plupart des projets Node.
+Le module utilise `CommonJS`, ce qui le rend compatible avec la plupart des projets Node.
 
 `js
 const { hello, greet, add } = require("@teremuhamblin/start.npm");
@@ -40,7 +37,7 @@ const { hello, greet, add } = require("@teremuhamblin/start.npm");
 
 Fonctions disponibles
 
-1. hello()
+1. `hello()`
 Affiche un message simple.
 
 `js
@@ -48,7 +45,7 @@ console.log(hello());
 // Résultat : "Hello, World!"
 `
 
-2. greet(name)
+2. `greet(name)`
 Affiche une salutation personnalisée.
 
 `js
@@ -56,7 +53,7 @@ console.log(greet("Teremu"));
 // Résultat : "Hello, Teremu!"
 `
 
-3. add(a, b)
+3. `add(a, b)`
 Additionne deux nombres.
 
 `js
@@ -132,7 +129,7 @@ Compatibilité
 Dépannage
 
 Erreur : "Cannot find module '@teremuhamblin/start.npm'"
-Vérifier que .npmrc contient bien :
+Vérifier que `.npmrc` contient bien :
 
 `
 @teremuhamblin:registry=https://npm.pkg.github.com
@@ -157,5 +154,3 @@ Informations complémentaires
 - La licence est MIT, ce qui permet une utilisation libre.
 
 ---
-
-Souhaites‑tu que cette documentation soit intégrée dans un fichier README.md complet ou que je t’aide à structurer une documentation multi‑pages pour un wiki GitHub ?
