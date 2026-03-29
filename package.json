@@ -4,6 +4,8 @@
   "description": "Package npm personnel publié sur GitHub Packages.",
   "main": "index.js",
   "scripts": {
+  "test": "jest"
+}
     "start": "node index.js",
     "start:npm": "npm start",
     "test": "jest",
