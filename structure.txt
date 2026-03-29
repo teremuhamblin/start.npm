@@ -1,7 +1,7 @@
 Structure complète du projet
 (sans les extensions et deploiements)
 
-YOUR-REPOSITORY/
+start.npm/
 ├── index.js
 ├── package.json
 ├── package-lock.json
