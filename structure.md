@@ -25,12 +25,14 @@ start.npm/
 └── SECURITY.md
 `
 
-### Rappel, les fichiers ont êtes placés dans le dossier :
+### Rappel !
+- les fichiers ont êtes placés dans le dossier :
 `start.npm/ .github`
 
-- CONTRIBUTING.md
-- CODE_OF_CONDUCT.md
-- SECURITY.md
+> - CONTRIBUTING.md
+> - CODE_OF_CONDUCT.md
+> - SECURITY.md
+> - SUPPORT.md
   
 ---
 
