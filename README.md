@@ -6,7 +6,7 @@
 
 ![CodeQL](https://github.com/teremuhamblin/start.npm/actions/workflows/codeql.yml/badge.svg)
 
-> - `failing car le code n'est pas finalisé.`
+- `failing car le code n'est pas finalisé.`
 
 ---
 
