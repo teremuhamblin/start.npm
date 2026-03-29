@@ -1,4 +1,4 @@
-📚 Documentation complète du projet : `@teremuhamblin/start.npm`
+📚 Documentation `DevOps` du projet : `@teremuhamblin/start.npm`
 
 1. Présentation générale
 - Le projet `start.npm` est un module `Node.js` minimaliste publié sur GitHub Packages. Il sert de base pour expérimenter la création, la structuration et la publication automatisée d’un package npm via GitHub Actions. Le module expose trois fonctions simples : `hello`, `greet` et `add.`
