@@ -33,9 +33,9 @@ npm install @teremuhamblin/start.npm
 `js
 const { hello, greet, add } = require("@teremuhamblin/start.npm");
 
-> console.log(hello()); // "Hello, World!"
-> console.log(greet("Teremu")); // "Hello, Teremu!"
-> console.log(add(2, 3)); // 5
+> - console.log(hello()); // "Hello, World!"
+> - console.log(greet("Teremu")); // "Hello, Teremu!"
+> - console.log(add(2, 3)); // 5
 `
 ---
 
