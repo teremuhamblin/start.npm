@@ -1,0 +1,17 @@
+# Dossiers à exclure
+tests/
+.github/
+node_modules/
+
+# Fichiers de configuration
+.eslintignore
+.eslintrc.json
+npm-debug.log
+yarn-error.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Environnements
+.env
